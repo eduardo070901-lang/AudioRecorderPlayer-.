@@ -10,7 +10,7 @@
     android:padding="20dp"
     tools:context=".MainActivity"
     tools:theme="@style/Theme.AudioRecorderPlayer"
-    tools:targetApi="34">
+    tools:targetApi="35">
 
     <TextView
         android:id="@+id/txtTitulo"
