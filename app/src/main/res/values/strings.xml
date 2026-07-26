@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AudioRecorderPlayer</string>
+    <string name="txt_titulo">Grabadora de Audio</string>
+    <string name="btn_grabar">Grabar</string>
+    <string name="btn_detener">Detener Grabacion</string>
+    <string name="btn_reproducir">Reproducir</string>
+    <string name="btn_detener_audio">Detener Reproduccion</string>
+
+    <string name="estado_grabando">Estado: Grabando…</string>
+    <string name="grabacion_iniciada">Grabación iniciada</string>
+    <string name="estado_finalizada">Estado: Grabación finalizada</string>
+    <string name="audio_guardado">Audio guardado correctamente</string>
+    <string name="error_detener">Error al detener la grabación</string>
+    <string name="estado_reproduciendo">Estado: Reproduciendo…</string>
+    <string name="reproduciendo_audio">Reproduciendo audio</string>
+    <string name="estado_listo">Estado: Listo</string>
+    <string name="reproduccion_finalizada">Reproducción finalizada</string>
+    <string name="no_grabacion">No existe una grabación</string>
+    <string name="reproduccion_detenida">Reproducción detenida</string>
+    <string name="permiso_concedido">Permiso concedido</string>
+    <string name="permiso_denegado">Debe aceptar el permiso para grabar audio</string>
+    <string name="permiso_necesario">El permiso de audio es necesario para usar esta función</string>
+    <string name="error_iniciar_grabacion">Error al iniciar grabación</string>
+</resources>

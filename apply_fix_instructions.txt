@@ -1,0 +1,21 @@
+Instrucciones para aplicar el arreglo y compilar (Windows PowerShell / CMD):
+
+1) Copiar el archivo corregido al layout:
+   copy /Y "activity_main_fixed.xml" "app\src\main\res\layout\activity_main.xml"
+   -- o en PowerShell:
+   Copy-Item -Path "activity_main_fixed.xml" -Destination "app\src\main\res\layout\activity_main.xml" -Force
+
+2) Compilar (desde la raíz del proyecto):
+   .\gradlew.bat assembleDebug
+   -- Ejecuta en PowerShell/CMD o usa Android Studio: Build > Make Project
+
+3) Si la compilación tiene éxito, inicializar repo Git y commitear (opcional):
+   git init
+   git config user.name "Tu Nombre"
+   git config user.email "tu@correo.com"
+   git add -A
+   git commit -m "Fix: make MaterialButtons wrap_content and set minWidth\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+
+Notas:
+- Si gradle falla, pega aquí el error y lo arreglo.
+- Si prefieres que cree un commit desde aquí, necesito permisos para ejecutar comandos en esta máquina (no disponibles en esta sesión).

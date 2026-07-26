@@ -1,0 +1,6 @@
+- [x] Corregir error de `VERSION_11` y `compileSdk`.
+- [x] Agregar iconos vectoriales.
+- [x] Actualizar `strings.xml`.
+- [x] Actualizar `activity_main.xml` con Chronometer e iconos.
+- [x] Actualizar `MainActivity.java` con lógica de cronómetro y permisos.
+- [x] Verificar compilación y funcionalidad.

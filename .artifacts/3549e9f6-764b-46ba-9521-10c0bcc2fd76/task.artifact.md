@@ -1,0 +1,6 @@
+- [x] Solucionar alertas en AndroidManifest.xml
+    - [x] Actualizar permisos (eliminar obsoletos, añadir `READ_MEDIA_AUDIO`)
+    - [x] Configurar iconos (`android:icon`, `android:roundIcon`)
+    - [x] Usar recurso de cadena para `android:label`
+    - [x] Añadir reglas de respaldo (`dataExtractionRules`, `fullBackupContent`)
+- [x] Verificar que las alertas hayan desaparecido

@@ -1,0 +1,4 @@
+- [x] Update `gradle.properties` to enable `android.newDsl`
+- [x] Update `app/build.gradle.kts` to target SDK 37
+- [x] Perform Gradle Sync
+- [x] Verify build with `app:assembleDebug`
